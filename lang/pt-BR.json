@@ -1,0 +1,40 @@
+{
+  "ALIEN_AUTO_POWER": {
+    "Settings": {
+      "EnableButtonTitle": "Ativar Botão de Power Supply",
+      "EnableButtonHint": "Adiciona um botão para rolar Power Supply após ataques com armas.",
+      "OnlyRangedTitle": "Apenas Armas à Distância",
+      "OnlyRangedHint": "Mostrar botão apenas para armas à distância.",
+      "ButtonStyleTitle": "Estilo do Botão",
+      "ButtonStyleHint": "Aparência do botão de Power Supply.",
+      "AutoHideButtonTitle": "Ocultar Botão Após Usar",
+      "AutoHideButtonHint": "Oculta o botão após clicar (evita cliques múltiplos)."
+    },
+    "ButtonStyle": {
+      "Default": "Padrão (pequeno)",
+      "Prominent": "Destacado (grande)",
+      "Minimal": "Minimalista"
+    },
+    "PowerSupplyRoll": "Rolagem de Suprimento de Energia",
+    "PowerValue": "Valor de Power",
+    "PowerLabel": "Power",
+    "WeaponLabel": "Arma",
+    "Result": "Resultado",
+    "PowerDepleted": "Energia Esgotada! (-1 Power)",
+    "PowerMaintained": "Energia Mantida",
+    "PowerReduced": "Power reduzido em 1",
+    "ButtonText": "🔋 Power Supply",
+    "ButtonTextProminent": "⚡ Rolar Power Supply ({weaponName})",
+    "ButtonTextMinimal": "⚡",
+    "ButtonTooltip": "Clique para rolar Power Supply desta arma",
+    "Rolling": "Rolando...",
+    "Rolled": "Rolado",
+    "Error": "Erro",
+    "WeaponNotFound": "Arma ou ator não encontrado!",
+    "MethodNotFound": "Método consumablesCheck não encontrado",
+    "WeaponDischarged": "⚠️ ARMA DESCARREGADA",
+    "WeaponDischargedMessage": "A {weaponName} não possui energia restante e não pode ser disparada.",
+    "PowerEmpty": "Power: 0 (Vazio)",
+    "ReloadRequired": "Recarga Necessária"
+  }
+}

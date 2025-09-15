@@ -1,0 +1,40 @@
+{
+  "ALIEN_AUTO_POWER": {
+    "Settings": {
+      "EnableButtonTitle": "Enable Power Supply Button",
+      "EnableButtonHint": "Add a button to roll power supply after weapon attacks.",
+      "OnlyRangedTitle": "Only Ranged Weapons",
+      "OnlyRangedHint": "Show button only for ranged weapons.",
+      "ButtonStyleTitle": "Button Style",
+      "ButtonStyleHint": "Appearance of the Power Supply button.",
+      "AutoHideButtonTitle": "Hide Button After Use",
+      "AutoHideButtonHint": "Hide the button after clicking (prevents multiple clicks)."
+    },
+    "ButtonStyle": {
+      "Default": "Default (small)",
+      "Prominent": "Prominent (large)",
+      "Minimal": "Minimalist"
+    },
+    "PowerSupplyRoll": "Power Supply Roll",
+    "PowerValue": "Power Value",
+    "PowerLabel": "Power",
+    "WeaponLabel": "Weapon",
+    "Result": "Result", 
+    "PowerDepleted": "Power Depleted! (-1 Power)",
+    "PowerMaintained": "Power Maintained",
+    "PowerReduced": "Power reduced by 1",
+    "ButtonText": "🔋 Power Supply",
+    "ButtonTextProminent": "⚡ Roll Power Supply ({weaponName})",
+    "ButtonTextMinimal": "⚡",
+    "ButtonTooltip": "Click to roll Power Supply for this weapon",
+    "Rolling": "Rolling...",
+    "Rolled": "Rolled",
+    "Error": "Error",
+    "WeaponNotFound": "Weapon or actor not found!",
+    "MethodNotFound": "consumablesCheck method not found",
+    "WeaponDischarged": "⚠️ WEAPON DISCHARGED",
+    "WeaponDischargedMessage": "The {weaponName} has no power remaining and cannot be fired.",
+    "PowerEmpty": "Power: 0 (Empty)",
+    "ReloadRequired": "Reload Required"
+  }
+}
