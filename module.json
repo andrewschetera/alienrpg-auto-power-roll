@@ -1,0 +1,46 @@
+{
+  "id": "alien-auto-power-roll",
+  "title": "Alien RPG - Auto Power Roll",
+  "description": "Automaticamente rola a característica Power de armas ranged no sistema Alien RPG.",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Seu Nome",
+      "email": "seu.email@exemplo.com"
+    }
+  ],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13",
+    "maximum": "13"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "alienrpg",
+        "type": "system",
+        "compatibility": {
+          "minimum": "3.0.0"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/auto-power-roll.js"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "pt-BR", 
+      "name": "Português (Brasil)",
+      "path": "lang/pt-BR.json"
+    }
+  ],
+  "url": "https://github.com/seu-usuario/alien-auto-power-roll",
+  "manifest": "https://raw.githubusercontent.com/seu-usuario/alien-auto-power-roll/main/module.json",
+  "download": "https://github.com/seu-usuario/alien-auto-power-roll/archive/main.zip"
+}
