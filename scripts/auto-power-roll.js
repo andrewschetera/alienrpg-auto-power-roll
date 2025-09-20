@@ -88,6 +88,8 @@ class AlienAutoPowerRollButton {
     }
 
     async _handleChatMessage(message) {
+        // 🔒 Só o GM cria as mensagens extras
+        if (!game.user.isGM) return;
         try {
             // Debug inicial
             console.log(`${this.moduleTitle} | Processando mensagem:`, message.id);
@@ -109,6 +111,10 @@ class AlienAutoPowerRollButton {
                 return;
             }
             this.processedMessages.add(message.id);
+
+            // 🚫 Checar flag para evitar duplicatas
+            if (message.getFlag(this.moduleName, "powerButtonCreated")) return;
+            await message.setFlag(this.moduleName, "powerButtonCreated", true);
 
             // Limpar cache se ficar muito grande
             if (this.processedMessages.size > 100) {
